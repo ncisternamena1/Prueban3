@@ -36,7 +36,7 @@ while ciclo:
         match op:
             case 1:
                 print("Ingresar libro")
-                arreglo_huesped = ingresarlibro(arreglo_libro)
+                arreglo_libro = ingresarlibro(arreglo_libro)
             case 2:
                 print("Buscar libro")
             case 3:
